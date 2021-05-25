@@ -7,3 +7,5 @@ Once the wavelength and flux profiles are obtained, I have normalized them using
 data helps us with reducing the distortion in the data, if any, so that we can get a specular spectral profile.
 After normalization,I have plotted the data as wavelength 'vs' relative flux to visualize the sharp dips in the data, which is expected to match with some of the 
 prominent emission lines like H_alpha, FeII, etc. The plot is then saved as a pdf file and a .JPEG file.
+
+The second part of the code is to calculate the Equivalent Width (EW) of a particular line, taking H_gamma for example. I have used 'line_index' module from 'laspec' which helps us calculate the EW. The source code for the 'laspec' module can be found here: https://github.com/hypergravity/laspec
