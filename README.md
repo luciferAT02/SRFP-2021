@@ -1,5 +1,5 @@
 # SRFP-2021
-This is the repository where I am storing all the source codes of the results that are mentioned in my SRF report. 
+This is the repository where I store all the source codes of the results that are mentioned in my SRF report. 
 # MyPlotSpectra_code.ipynb
 First I have imported all required modules that I will be using for opening the FITS file, normalizing the data present inside the file and plot them.
 The FITS file I have used is a 1 dimensional array that consists of the flux and wavelength data of the observed spectrum. 
